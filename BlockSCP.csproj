@@ -7,8 +7,8 @@
     <ProjectGuid>{1731B4D5-1F9E-4680-A86B-BE85B648117A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ScpForce</RootNamespace>
-    <AssemblyName>ScpForce</AssemblyName>
+    <RootNamespace>BlockSCP</RootNamespace>
+    <AssemblyName>BlockSCP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
