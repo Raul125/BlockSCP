@@ -1,5 +1,5 @@
 # BlockSCP
-Allow you to block scps on round started, if locked, the player will be scientist or class d.
+Allow you to remove scps, if locked, the player will be scientist or class d.
 
 - Commands RemoteAdmin:
   - lockscps
