@@ -29,5 +29,10 @@ namespace BlockSCP.Handlers
                 }
             }
         }
+
+        public void OnRoundRestarting()
+        {
+            CommandLock = false;
+        }
     }
 }

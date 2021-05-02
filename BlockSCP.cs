@@ -20,12 +20,14 @@ namespace BlockSCP
             Singleton = this;
             EventHandlers = new EventHandlers(this);
             Exiled.Events.Handlers.Player.ChangingRole += EventHandlers.OnChangingRole;
+            Exiled.Events.Handlers.Server.RestartingRound += EventHandlers.OnRoundRestarting;
             base.OnEnabled();
         }
 
         public override void OnDisabled()
         {
             Exiled.Events.Handlers.Player.ChangingRole -= EventHandlers.OnChangingRole;
+            Exiled.Events.Handlers.Server.RestartingRound -= EventHandlers.OnRoundRestarting;
             EventHandlers = null;
             Singleton = null;
             base.OnDisabled();
